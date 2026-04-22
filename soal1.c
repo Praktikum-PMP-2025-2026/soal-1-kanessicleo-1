@@ -42,10 +42,10 @@ int main() {
     int sum, max, idx;
     float avg;
     fungsi_pointer(N, data_eskperimen, &sum, &avg, &max, &idx);
-    printf("SUM %d \n", sum);
-    printf("AVG %.2f \n", avg);
-    printf("MAX %d \n", max);
-    printf("IDX %d \n", idx);
+    printf("SUM %d\n", sum);
+    printf("AVG %.2f\n", avg);
+    printf("MAX %d\n", max);
+    printf("IDX %d\n", idx);
     return 0;
 }
 
