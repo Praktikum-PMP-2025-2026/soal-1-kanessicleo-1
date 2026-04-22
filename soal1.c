@@ -53,6 +53,7 @@ int main() {
 void fungsi_pointer(int N, int *data_eksperimen, int *sum, float *avg, int *max, int *idx) {
     *sum = 0; 
     *max = data_eksperimen[0];
+    *idx = 0;
     for (int i = 0; i < N; i++) {
         *sum = *sum + data_eksperimen[i];
         if (data_eksperimen[i] > *max) {
